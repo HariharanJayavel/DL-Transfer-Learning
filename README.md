@@ -11,36 +11,31 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 ### STEP 1: 
-
-Write your own steps
+Import required libraries and define image transforms.
 
 ### STEP 2: 
-
+Load training and testing datasets using ImageFolder.
 
 
 ### STEP 3: 
-
+Visualize sample images from the dataset.
 
 
 ### STEP 4: 
-
-
+Load pre-trained VGG19, modify the final layer for binary classification, and freeze feature extractor layers.
 
 ### STEP 5: 
-
+Define loss function (CrossEntropyLoss) and optimizer (Adam). Train the model and plot the loss curve.
 
 
 ### STEP 6: 
-
-
-
-
+Evaluate the model with test accuracy, confusion matrix, classification report, and visualize predictions.
 
 ## PROGRAM
 
-### Name:
+### Name: HARIHARAN J
 
-### Register Number:
+### Register Number: 212223240047
 
 ```python
 import torch
@@ -281,4 +276,5 @@ predict_image(model, image_index=25, dataset=test_dataset)
 <img width="328" height="371" alt="image" src="https://github.com/user-attachments/assets/33d97067-325b-4eae-ac15-ae558979173d" />
 
 ## RESULT
-Include your result here
+
+Developing a Neural Network Classification Model using Transfer Learning was Successfully built
